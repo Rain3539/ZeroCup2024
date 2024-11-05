@@ -18,8 +18,8 @@ onMounted(() => {
     chosenItem.value = "sorts"
     changeRoute()
     //仍存在点击过快header不显示的小问题
-    watch(chosenItem,(value)=>{
-        if(value=="sorts"){
+    watch(chosenItem, (value) => {
+        if (value == "sorts") {
             console.log("gsdfg")
             let header = document.getElementsByClassName("header")[0];
             header.style.opacity = 1;
@@ -48,6 +48,7 @@ function changeColor(str) {
         <div class="header">
             <router-link to="/">
                 <img class="backButton" src="../../public/source/svg/back.svg">
+
             </router-link>
             <div class="titleBox">
                 <div class="title">{{ data.name }}</div>
@@ -64,10 +65,13 @@ function changeColor(str) {
                 </RouterLink>
             </div>
         </div>
-        <div class="show" :style="`background-image: url(${data.image});background-position: center;background-repeat: no-repeat;background-size: cover;`">
+        <div class="foggy"></div>
+        <div class="show"
+            :style="`background-image: url(${data.image});background-position: center;background-repeat: no-repeat;background-size: cover;`">
             <RouterView :chosenItem="chosenItem" :sortsData="data.sorts" :playerData="data.player" key="2"></RouterView>
-            <!-- <floatintWater/>    -->
+            <floatintWater/>   
         </div>
+
 
 
     </div>
@@ -99,7 +103,7 @@ function changeColor(str) {
     right: 0;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 11vh;
     width: 100vw;
     z-index: 10;
@@ -108,8 +112,8 @@ function changeColor(str) {
 }
 
 .header .title {
-    font-size: 2rem;
-    color: aliceblue;
+    font-size: 2.4rem;
+    font-weight: bolder;
 }
 
 .backButton {
@@ -129,7 +133,7 @@ function changeColor(str) {
 }
 
 .line {
-    border: solid 1px white;
+    border: solid 1px;
     width: 15vw;
     margin-top: 4%;
 }
@@ -184,5 +188,13 @@ function changeColor(str) {
     height: 100vh;
     background: url("../../public/source/img/pingpongDesk.png");
     background-size: cover;
+}
+
+.foggy {
+    width: 100vw;
+    height: 100vh;
+    background-color: #45454565;
+    position: absolute;
+    z-index: 2;
 }
 </style>
