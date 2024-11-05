@@ -39,13 +39,16 @@ function reduce(){
 
     }
 }
+function lll(){
+    console.log("sd")
+}
 </script>
 
 
 <template>
-    <div class="personIntro" :class="data.index % 2 == 0 ? 'leftColumn' : 'rightColumn'">
+    <div class="personIntro" :class="data.index % 2 == 0 ? 'leftColumn' : 'rightColumn'"  @mouseenter="grow" @mouseleave="reduce">
         <img class="pic" :src="data.person.img">
-        <div class="describe" @mouseenter="grow" @mouseleave="reduce">
+        <div class="describe">
             <div class="name">{{ data.person.name }}</div>
             <div class="hoverAdd">
                 <div class="alias">外号：{{ data.person.alias }}</div>
@@ -61,11 +64,12 @@ function reduce(){
 .personIntro {
     height: 100vh;
     scroll-snap-align: start;
+    z-index: 10;
 }
 
 .pic {
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     max-height: 60vh;
     width: 20vw;
     border-radius: 10%;
@@ -80,6 +84,7 @@ function reduce(){
     flex-direction: row;
     opacity: 0.5;
     transform: translate(20%, 20%);
+    z-index: 3;
 }
 
 .describe .name {

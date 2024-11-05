@@ -45,10 +45,10 @@ function clickItem(){
     border-radius: 30px;
 }
 .pic{
-    width: 5vw;
+    width: 7vw;
 }
 .eventName{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 .medals{
@@ -70,11 +70,13 @@ function clickItem(){
     transform: translate(0,-20%);
 }
 .letter{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     
 }
 .detailsWord{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .detailsPic {
     position: relative;
