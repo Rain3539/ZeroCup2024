@@ -44,13 +44,14 @@ function dispear() {
 
             </div>
             <div class="rightItem">
-                <span>参赛运动员：</span>
+                <span class="name">参赛运动员：</span>
                 <div class="players">
                     <div v-for="player in data.event.player">
                         <p class="player">{{ player }}</p>
                     </div>
                 </div>
-                <div class="describe">卓越成绩：{{ data.event.describe }}</div>
+                <div class="describe"><span class="name">卓越成绩：</span>
+                    {{ data.event.describe }}</div>
             </div>
         </div>
     </div>
@@ -97,7 +98,7 @@ function dispear() {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(253, 255, 127);
+    background-color: rgba(254, 145, 73, 0.869);
     border-radius: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -130,7 +131,10 @@ function dispear() {
     display: flex;
     flex-wrap: wrap;
 }
-
+.name{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 /*正面*/
 .front {
     transform: translateZ(1px);
@@ -184,6 +188,7 @@ function dispear() {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 2vw;
 }
 
 .pic {

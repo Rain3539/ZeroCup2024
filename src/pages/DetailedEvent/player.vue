@@ -39,7 +39,7 @@ onMounted(() => {
             <personIntro :person="item" :index="index" class="player" />
         </div>
     </div>
-    <bounceBall class="ball" v-if="data.playerData[0].name=='樊振东'"/>
+    <!-- <bounceBall class="ball" v-if="data.playerData[0].name=='樊振东'"/> -->
 </template>
 
 <style scoped>

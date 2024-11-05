@@ -48,7 +48,7 @@ function clickItem(){
     width: 5vw;
 }
 .eventName{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 .medals{
@@ -71,10 +71,12 @@ function clickItem(){
 }
 .letter{
     font-size: 1.2rem;
+    font-weight: bold;
     
 }
 .detailsWord{
     font-size: 1.3rem;
+    font-weight: bold;
 }
 .detailsPic {
     position: relative;

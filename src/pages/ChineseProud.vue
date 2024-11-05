@@ -3,7 +3,7 @@ import specialItems from "../components/specialItems.vue"
 import commonItems from "../components/commonItems.vue"
 import { ref } from "vue"
 import { useRoute, useRouter } from "vue-router";
-const eventList1 = [{ id: 0, name: "乒乓球", medal: [1, 2, 3] }, { id: 1, name: "艺术体操", medal: [1, 2, 3] }, { id: 2, name: "跳水", medal: [1, 2, 3] }, { id: 3, name: "乒乓球", medal: [1, 2, 3] }]
+const eventList1 = [{ id: 0, name: "乒乓球", medal: [1, 2, 3] }, { id: 1, name: "游泳", medal: [1, 2, 3] }, { id: 2, name: "体操", medal: [1, 2, 3] }, { id: 3, name: "射击", medal: [1, 2, 3] }]
 const eventList2 = [{ id: 0, name: "跳水", medal: [1, 1, 1], describe: "dddddsA阿凡达安抚啊愤愤然官方v的撒啊肥肉手机发违法阿瑞斯广发佛IP给二公分儿国但是如果var发过去阿尔山嘎嘎仍然大唐官府v阿飞噶芬达味d", player: ["全红婵", "addd", "ddfff"], pic: "../../public/source/svg/swimming.svg" },
 { id: 1, name: "跳水", medal: [1, 1, 1], describe: "dddddddd发而无法发而无法成都发起热发电各色人告诉他发给dddddd擦拭的发生多次v饿啊日发饿啊分电视大赛擦二二非常撒地方从委屈啊范德萨v不发威辐射热地方从", player: ["全红婵", "addd", "ddfff","sdfadfa","sadfdgfd","dgfshsr"], pic: "../../public/source/svg/swimming.svg" },
 { id: 2, name: "跳水", medal: [1, 1, 1], describe: "dddddddddddddddddddd", player: ["全红婵", "addd", "ddfff"], pic: "../../public/source/svg/swimming.svg" },
