@@ -128,7 +128,7 @@ onMounted(() => {
 }
 
 .describe .title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
     margin-bottom: 4%;
     color: white;

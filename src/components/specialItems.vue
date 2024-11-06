@@ -80,7 +80,7 @@ function clickItem(){
 }
 .detailsPic {
     position: relative;
-    width: 8vw;
+    width: 6vw;
 }
 .box:hover {
     background-color: #D91313;
