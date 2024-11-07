@@ -135,7 +135,7 @@ onMounted(() => {
 }
 
 .describe .playerName {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #FFEE00;
 }
