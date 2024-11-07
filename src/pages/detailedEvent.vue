@@ -46,7 +46,7 @@ function changeColor(str) {
 <template>
     <div class="eventName">
         <div class="header">
-            <router-link to="/">
+            <router-link to="/ChineseProud">
                 <img class="backButton" src="../../public/source/svg/back.svg">
 
             </router-link>

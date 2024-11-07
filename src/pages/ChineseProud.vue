@@ -21,7 +21,7 @@ function changeRoute(index) {
     <div class="chineseProud">
         <!-- <img src="../../public/source/img/chinsesProudBG.png" class="background"> -->
         <header class="header">
-            <img class="backButton" src="../../public/source/svg/back.svg">
+            <RouterLink to="/homepage"><img class="backButton" src="../../public/source/svg/back.svg"></RouterLink>
             <div class="titleBox">
                 <div class="title">中国骄傲</div>
                 <div class="line"></div>
