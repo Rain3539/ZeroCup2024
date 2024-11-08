@@ -60,6 +60,7 @@ import {RouterLink} from 'vue-router'
 export default defineComponent({
   name: 'Details',
   setup() {
+    window.scrollTo(0, 0); // 页面滚动到顶部
     const router = useRouter();
 
     const goToPingpangDetail = () => {

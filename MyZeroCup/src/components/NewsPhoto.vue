@@ -260,7 +260,8 @@ onMounted(() => {
         height: 38.76vh;
         position: absolute;
         transition: 0.3s;
-        left:17vw;
+        left:15.6vw;
+        box-shadow: none;
         img {
             width: 100%;
             height: 100%;
@@ -299,7 +300,7 @@ onMounted(() => {
         height: 1.94vh;
         position: absolute;
         z-index: 9999;
-        left: 45.2vw;
+        left: 44.8vw;
         top:47.8vh;
         p {
             width: 15px;
