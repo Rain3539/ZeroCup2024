@@ -21,7 +21,7 @@ function changeRoute(index) {
     <div class="chineseProud">
         <!-- <img src="../../public/source/img/chinsesProudBG.png" class="background"> -->
         <header class="header">
-            <RouterLink to="/homepage"><img class="backButton" src="../../public/source/svg/back.svg"></RouterLink>
+            <RouterLink to="/homepage"><img class="backButton" src="../../public/source/svg/backWhite.svg"></RouterLink>
             <div class="titleBox">
                 <div class="title">中国骄傲</div>
                 <div class="line"></div>
@@ -69,13 +69,15 @@ function changeRoute(index) {
 
 .backButton {
     position: relative;
-    top: 0;
+    top: 3vh;
+    left: 2vw;
     height: 10vh;
     margin: 3%;
 }
 
 .titleBox {
     top: 3vh;
+    height: 12vh;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -85,7 +87,7 @@ function changeRoute(index) {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: aliceblue;
 }
 

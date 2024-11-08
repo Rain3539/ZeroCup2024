@@ -71,10 +71,11 @@ function dispear() {
     border-radius: 30px;
     position: relative;
     cursor: pointer;
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.279);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.552);
     transform-style: preserve-3d;
     animation: rotate-reverse 1.2s cubic-bezier(0.66, -0.47, 0.33, 1.5) forwards;
     background-color: aliceblue;
+
 }
 
 .card2:hover {
@@ -166,6 +167,7 @@ function dispear() {
 .img {
     margin-left: 2vw;
     margin-right: 2vw;
+    min-width: 10vw;
     width: 10vw;
 }
 

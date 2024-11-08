@@ -18,7 +18,7 @@ onMounted(() => {
         if (data.chosenItem == "player") {
             setTimeout(() => {
                 header.style.opacity = 0
-            }, 800)
+            }, 2000)
         }
 
     })

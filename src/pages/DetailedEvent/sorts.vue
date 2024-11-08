@@ -90,11 +90,11 @@ function nextItem() {
 }
 
 .content1 .arrow:nth-child(1) {
-    left: 5%;
+    left: 7%;
 }
 
 .content1 .arrow:nth-child(2) {
-    right: 5%;
+    right: 4%;
 }
 
 .box {

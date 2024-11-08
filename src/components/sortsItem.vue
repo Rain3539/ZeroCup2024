@@ -37,9 +37,7 @@ onMounted(() => {
                 <div class="describe">
                     <div class="title">{{ data.event.eventname }}</div>
                     <div class="playerBox">
-                        <span v-for="item in data.event.player" :key="item.index">
-                            <span class="playerName">{{ item }}</span>
-                        </span>
+                            <span class="playerName">{{ data.event.player }}</span>
                     </div>
 
                     <div class="achieve">{{ data.event.describe }}</div>

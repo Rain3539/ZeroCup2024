@@ -47,7 +47,7 @@ function changeColor(str) {
     <div class="eventName">
         <div class="header">
             <router-link to="/ChineseProud">
-                <img class="backButton" src="../../public/source/svg/back.svg">
+                <img class="backButton" src="../../public/source/svg/backBlack.svg">
 
             </router-link>
             <div class="titleBox">
@@ -104,7 +104,7 @@ function changeColor(str) {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    height: 11vh;
+    height: 13vh;
     width: 100vw;
     z-index: 10;
     transition: 0.5s;
@@ -114,16 +114,18 @@ function changeColor(str) {
 .header .title {
     font-size: 2.4rem;
     font-weight: bolder;
+    color: black;
 }
 
 .backButton {
     position: fixed;
     left: 6vw;
     height: 8vh;
-    top: 2vh;
+    top: 2.6vh;
 }
 
 .titleBox {
+    height: 11vh;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -133,9 +135,11 @@ function changeColor(str) {
 }
 
 .line {
-    border: solid 1px;
+    position: relative;
+    color: black;
+    border: solid 2px;
     width: 15vw;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .line:nth-child(3) {
